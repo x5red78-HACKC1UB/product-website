@@ -1,23 +1,28 @@
 @font-face {
-    font-family: '8bitoperator'; src: url('undertalefontfolder/8bitoperator_jve.ttf') format('truetype'); 
+    font-family: '8bitoperator'; src: url('undertalefontfolder/8bitoperator.otf.woff2') format('truetype'); 
+   }
+   li::marker{
+      color: whitesmoke;
    }
 body {
-   background-color: rgb(234, 201, 141);
+   background-color: rgb(0, 0, 0);
    font-family: '8bitoperator';
+   color: rgb(255, 255, 255);
+   text-shadow: 8px;
   text-align: center;
 }
 /*Mail button*/
 .mail{
     border-radius: 6px;
-    background-color: rgb(165, 131, 88);
-    color: bisque;
+    background-color: rgb(0, 0, 0);
   text-align: center;
   transform: translateY(300px);
    transition: transform 200ms ease;
+    box-shadow: 0 0 10px rgba(140, 213, 240, 0.99);
 }
 /*Mail text anchor (NOT ACTUAL BUTTON)*/
 button a{
-     color: bisque;
+     color: rgb(201, 201, 201);
      text-decoration: none;
      padding: 12px 18px;
     transition: transform 200ms ease;
@@ -34,13 +39,27 @@ transform:  translateY(300px) scale(1.15);
    height: 300px;
    border-radius: 800px;
    background-color: antiquewhite;
-   transform: translateX(390px) scale(1.2) translateY(50px);
+ transform: translateX(390px) scale(1.2) translateY(50px);
    display: flex; 
    flex-direction: column; 
    justify-content: flex-start;  
    align-items: center;
-   box-shadow: 0 0 300px rgba(0, 0, 0, 0.6);
+   box-shadow: 0 0px 300px rgba(255, 251, 251, 0.6);
 }
 .showcase-box p{
    margin-top: 40px;
 }
+.nothing { 
+   display: block;
+   position: absolute; 
+   bottom: 30px; 
+    transform-origin: center center;
+   animation: spin 1s linear infinite; 
+} 
+@keyframes spin { 
+   from {
+    transform: rotate(0deg); 
+   } to {
+       transform: rotate(360deg); 
+      } 
+   }
