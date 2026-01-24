@@ -11,7 +11,6 @@ body {
     border-radius: 6px;
     background-color: rgb(165, 131, 88);
     color: bisque;
-    font-family: Comic Sans Ms;
   text-align: center;
   transform: translateY(300px);
    transition: transform 200ms ease;
