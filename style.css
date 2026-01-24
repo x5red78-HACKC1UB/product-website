@@ -1,20 +1,47 @@
+@font-face {
+    font-family: '8bitoperator'; src: url('undertalefontfolder/8bitoperator_jve.ttf') format('truetype'); 
+   }
 body {
    background-color: rgb(234, 201, 141);
-   font-family: Comic Sans Ms;
+   font-family: '8bitoperator';
   text-align: center;
 }
+/*Mail button*/
 .mail{
     border-radius: 6px;
     background-color: rgb(165, 131, 88);
     color: bisque;
     font-family: Comic Sans Ms;
   text-align: center;
+  transform: translateY(300px);
+   transition: transform 200ms ease;
 }
+/*Mail text anchor (NOT ACTUAL BUTTON)*/
 button a{
      color: bisque;
      text-decoration: none;
-     transition: 200ms;
+     padding: 12px 18px;
+    transition: transform 200ms ease;
+   }
+.mail:hover{
+transform:  translateY(300px) scale(1.15);
 }
-button a:hover{
 
+.title{
+   font-weight: bold;
+}
+.showcase-box{
+   width: 300px;
+   height: 300px;
+   border-radius: 800px;
+   background-color: antiquewhite;
+   transform: translateX(390px) scale(1.2) translateY(50px);
+   display: flex; 
+   flex-direction: column; 
+   justify-content: flex-start;  
+   align-items: center;
+   box-shadow: 0 0 300px rgba(0, 0, 0, 0.6);
+}
+.showcase-box p{
+   margin-top: 40px;
 }
