@@ -1,0 +1,11 @@
+@font-face {
+    font-family: '8bitoperator'; src: url('undertalefontfolder/8bitoperator.otf.woff2') format('truetype'); 
+   }
+
+body {
+   background-color: rgb(255, 255, 255);
+   font-family: '8bitoperator';
+   color: rgb(0, 0, 0);
+   text-shadow: 8px;
+  text-align: center;
+}
