@@ -1,6 +1,7 @@
 @font-face {
     font-family: '8bitoperator'; src: url('undertalefontfolder/8bitoperator.otf.woff2') format('truetype'); 
    }
+
 body {
    background-color: rgb(255, 255, 255);
    font-family: '8bitoperator';
@@ -8,6 +9,7 @@ body {
    text-shadow: 8px;
   text-align: center;
 }
+
 .box{
    text-align: center;
    background-color: black;
@@ -15,7 +17,18 @@ body {
    width: 500px;
    height: 500px;
    border-radius: 15px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
 }
+
 .Back{
-   
+   width: auto;
+   height: auto;
+   border-radius: 6px;
+   font-family: '8bitoperator';
+    background-color: rgb(255, 255, 255);
+  text-align: center;
+  transform: translateY(-210px);
+  transform: translateX(-300px);
+   transition: transform 200ms ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
 }
