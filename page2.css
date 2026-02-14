@@ -9,7 +9,7 @@ body {
    text-shadow: 8px;
   text-align: center;
 }
-
+/*Copyright*/
 .box{
    text-align: center;
    background-color: black;
@@ -19,7 +19,7 @@ body {
    border-radius: 15px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
 }
-
+/*back btm*/
 .Back{
    width: auto;
    height: auto;
@@ -32,6 +32,7 @@ body {
    transition: transform 200ms ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
 }
+/*email btn*/
 .mail{
 border-radius: 6px;
     background-color: rgb(0, 0, 0);
