@@ -7,6 +7,7 @@ console.log("JS connected!");
 console.log("miku!");
 miku.addEventListener("mousedown", (e) => {
  isHolding= true;
+ miku.classList.add("mikumikuglow");
     mikuX = e.clientX - miku.offsetLeft; 
     mikuY = e.clientY - miku.offsetTop;
 });
@@ -21,6 +22,7 @@ document.addEventListener("mousemove", (e) => {
 document.addEventListener("mouseup", () => { 
     if (isHolding) { 
     console.log("Dragging stopped"); 
+    miku.classList.remove("mikumikuglow");
 } 
 isHolding = false; 
 });

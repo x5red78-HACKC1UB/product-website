@@ -88,5 +88,8 @@ transform: scale(1.05);
       color: black;
       
    }
+   .mikumikuglow {
+       filter: drop-shadow(0 0 15px #3dbeff); 
+      }
    
 
